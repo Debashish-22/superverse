@@ -1,0 +1,69 @@
+/* FAVOURITE PAGE STYLING */
+body{
+    padding:2rem 0;
+}
+.favourite-container{
+    width:95%;
+    margin:5rem auto 0 auto;
+}
+.cards{
+    width:100%;
+    padding:2rem 0;
+}
+/* fav card */
+.fav-card{
+    width:300px;
+    border-radius: 2rem;
+    background-color: var(--white);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition:0.3s;
+}
+.fav-card:hover{
+    transform: scale(1.03);
+}
+.fav-hero-image img{
+    height:300px;
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-color: var(--dark-white);
+}
+.fav-hero-details{
+    height:250px;
+    width:100%;
+    padding:0.5rem
+}
+.highlight{
+    background-color: #ffdd00;
+    letter-spacing: 2px;
+    padding:0.5rem 1rem;
+    border-radius:1rem;
+}
+.know-more{
+    color:var(--orange);
+    background-color: var(--white);
+    border: none;
+}
+.know-more:hover{
+    border: none;
+}
+.options{
+    width:100%;
+}
+/* Empty Data image to indicate empty data */
+.empty-notification{
+    height:35rem;
+    width:45rem;
+    margin:0 auto;
+}
+.empty-notification img{
+    height:100%;
+    width:100%;
+}
+@media screen and (max-width:720px){
+    .empty-notification{
+        height:100%;
+        width:100%;
+    }
+}

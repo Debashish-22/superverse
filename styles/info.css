@@ -1,0 +1,121 @@
+/* CHARACTER INFORMATION PAGE STYLING */
+body{
+    padding:2rem 0;
+    background-color: var(--dark-white);
+}
+.main-container{
+    width:95%;
+    margin:0 auto 3rem auto;
+    padding:2rem 0;
+    border-radius:2rem;
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.character-head{
+    width:100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.character-head img{
+    height: 5rem;
+}
+.design{
+    width:100%;
+    height:0.5rem;
+    border-radius: 2rem;
+    background: linear-gradient(90deg,#ffd33d,#ea4aaa 17%,#b34bff 34%,#01feff 51%,#ffd33d 68%,#ea4aaa 85%,#b34bff);
+
+}
+.character-container{
+    width:98%;
+    margin:2rem auto 0 auto;
+}
+.character-img-fav{
+    height:47rem;
+    padding:1rem;
+    border-radius:2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.character-img-fav img{
+    height:40rem;
+    width:40rem;
+    border-radius: 50%;
+    background-color: var(--dark-white);
+}
+.character-info-container{
+    width:97rem;
+    margin-right: 1rem;
+    padding:0 1rem;
+    border-radius:2rem;
+}
+.field{
+    width:100%;
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
+.sub-field{
+    width:50%;
+    overflow: auto;
+    text-transform: capitalize;
+}
+.bottom-border{
+    height:3px;
+    width:100%;
+    margin-top: 1rem;
+    background-color: rgba(0,0,0,0.04);
+}
+.character-power{
+    width:45%;
+    padding:1rem;
+}
+.power-stat{
+    height:2rem;
+    width:100%;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    background-color: var(--dark-white);
+}
+.power-value{
+    height:100%;
+    width:0%;
+    border-radius: 3rem;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+.light-text{
+    color:rgba(0, 0, 0, 0.85);
+    letter-spacing: 1.6px;
+    font-size: 2.5rem;
+}
+@media screen and (max-width:1024px){
+
+    .character-container{
+        flex-direction: column;
+    }
+    .character-info-container{
+        width:100%;
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width:500px){
+    
+    .character-img-fav img{
+        width:100%;
+    }
+    .field{
+        flex-direction: column;
+    }
+    .sub-field{
+        width:100%;
+        margin-bottom: 1.8rem;
+    }
+    .character-power{
+        width:100%;
+    }
+    .small-col{
+        flex-direction: column;
+    }
+    .small-top{
+        margin-top: 2rem;
+    }
+}
