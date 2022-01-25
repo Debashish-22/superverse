@@ -17,4 +17,4 @@ project live at https://debashish-22.github.io/superverse/
 * persistent storage of your added characters in Favourite list.
 ## Resources
 
-API used in this project link https://superheroapi.com/ids.html
+API used in this project https://superheroapi.com/ids.html
