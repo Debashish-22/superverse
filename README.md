@@ -18,3 +18,7 @@ project live at https://debashish-22.github.io/superverse/
 ## Resources
 
 API used in this project https://superheroapi.com/index.html
+
+## Demonstration and Explanation
+
+Project demo and explanation video at https://drive.google.com/file/d/1rbsSKExg-s_v8lRu6othrb5zRjExCLm5/view?usp=sharing
